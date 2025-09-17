@@ -1,0 +1,108 @@
+body {
+  font-family: "Comfortaa", sans-serif;
+  font-weight: 900;
+  background-color: #ADCEFB;
+  /* normal */
+}
+
+h1, h2 {
+  font-family: "Comfortaa", sans-serif;
+  font-weight: 900;
+  color: #23075c;
+  text-align: center;
+}
+
+h1 {
+  font-size: 30px;
+}
+    
+
+h2 {
+ font-size: 25px;   
+}
+
+.player {
+  background: #fff;
+  border-radius: 20px;
+  padding: 20px;
+  box-shadow: 0 4 px 10 px rgba(0,0,0,0.2);
+  max-width: 300px;
+  margin: auto;
+}
+
+.cover {
+  width: 200px;
+  height: 200px;
+  border-radius: 15px;
+  margin-bottom: 15px;
+}
+
+.title {
+  font-size: 18px;
+  margin: 10px 0;
+  background-color: #ff66a3;
+}
+
+.controls {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  margin-top: 10px;
+}
+
+.btn {
+  width: 50px;
+  height: 50px;
+  cursor: pointer;
+}
+
+.time {
+  text-align: center;
+  margin: auto;
+}
+
+.progress-container {
+  background: #ADCEFB;
+  border-radius: 10px;
+  cursor: pointer;
+  margin: 10px 0;
+  height: 10px;
+  width:  100%;
+  max-width: 260px;
+  margin-left: auto;
+  margin-right: auto;
+  overflow: hidden;
+}
+
+.progress {
+  background: #4D86D5;
+  height: 100%;
+  width: 0%;
+  border-radius: 10px;
+}
+
+#songList {
+  list-style: none;
+  padding: 0;
+  margin-top: 30px;
+  text-align: left;
+}
+
+#songList li {
+  padding: 8px;
+  cursor: pointer;
+  transition: background 0.3s;
+}
+
+#songList li:hover {
+  background: #ADCEFB;
+
+}
+
+footer {
+  font-family: "Comfortaa", sans-serif;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  text-align: center;
+  
+}

@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=Edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Julie's Mini Happy Playlist</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Comfortaa:wght@400;700&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <div id="home">
+  <h1>Welcome to Julie’s Mini Happy Playlist^^ 🎵</h1>
+</div>
+
+<div class="player" id="player" style="display:none;">
+  <!-- your player HTML here -->
+</div>
+
+  <div class="player">
+    <h2 id="title">Julie's Music Player</h2>
+    
+    <img id="cover" src="/images/hello.png" alt="cover"/>
+    
+  <div class="title"></div>  
+  
+  <div class="progress-container" id="progressContainer">
+    <div class="progress" id="progress"></div>
+  </div>
+    
+
+    
+  <audio id="audio">
+  </audio>  
+  
+    <div class="time">
+    <span id="currentTime">0:00</span> /
+    <span id="duration">0:00</span>
+  </div>
+  
+  <div class="controls">
+    <img id="prevBtn" src="images/prev.png" alt="Previous" class="btn">
+    <img id="playBtn" src="images/play.png" alt="Play" class="btn">
+    <img id="nextBtn" src="images/next.png" alt="Next" class="btn">
+    <img id="shuffleBtn" src="images/shuffle.png" alt="Shuffle" class="btn">
+  </div>
+  <ul id="songList"></ul>
+</div>
+  </div>
+  
+ <footer>
+   <p>Made with ❤️ by @juliexandraaa</p>
+ </footer>
+ 
+  <script src="main.js"></script>
+</body>
+</html>
