@@ -14,10 +14,10 @@ let songIndex = 0;
 
 // Daftar lagu
 const songs = [
-  { title: "Running-Gaho (OST Start-Up Pt.5)", src: "audio/gaho_running.mp3", cover: "/images/gaho.png" },
+  { title: "Running-Gaho (OST Start-Up Pt.5)", src: "audio/gaho_running.mp3", cover: "images/gaho.png" },
   { title: "In The Rain-Kim Sejeong", src: "audio/kimsejeong_intherain.mp3", cover: "images/kimsj.png" },
-  { title: "Quarter Life-TXT", src: "audio/txt_quarterlife.mp3", cover: "/images/txt.png" },
-  { title: "Palette-IU ft.G-Dragon", src: "audio/iu_palette.mp3", cover: "/images/iu.png" },
+  { title: "Quarter Life-TXT", src: "audio/txt_quarterlife.mp3", cover: "images/txt.png" },
+  { title: "Palette-IU ft.G-Dragon", src: "audio/iu_palette.mp3", cover: "images/iu.png" },
   { title: "Popcorn-Do Kyungsoo", src: "audio/do.mp3", cover: "images/do.png" },
   { title: "Super Shy-Newjeans", src: "audio/supershy.mp3", cover: "images/supershy.png"}, 
   {title: "Hear Me Out-EXO", src: "audio/exo.mp3", cover: "images/exo.png"},
